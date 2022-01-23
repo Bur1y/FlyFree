@@ -1,0 +1,31 @@
+#pane-backround{
+    -fx-background-image: url("https://images.unsplash.com/photo-1479152471347-3f2e62a2b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZHJvbmV8ZW58MHx8MHx8&w=1000&q=80");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+#stack-pane-gradient{
+    -fx-background-color: linear-gradient(to top,  #8E0084, transparent);
+}
+
+#button-green{
+    -fx-background-color: 
+        white,
+        linear-gradient(#36ff78, #36ff78);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 5 30 5 30;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+}
+
+#button-blue{
+    -fx-background-color: 
+        white,
+        linear-gradient(#00c3ff, #00c3ff);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 5 30 5 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
